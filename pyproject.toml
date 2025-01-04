@@ -1,14 +1,14 @@
 [tool.poetry]
 name = "langchain-pull-md"
 version = "0.1.0"
-description = "langchain-pull-md is a Python package that enhances the LangChain toolkit by introducing a new loader specifically designed to convert URLs into Markdown format. This package provides a crucial functionality for projects requiring the extraction of content from web pages, particularly those rendered with JavaScript frameworks like React, Angular, or Vue.js. The original loaders in LangChain may struggle with dynamically rendered content, but langchain-pull-md addresses this gap by utilizing the pull.md service. This approach not only ensures compatibility with modern web technologies but also optimizes resource usage by offloading the rendering process to an external service, thereby providing a reliable and efficient Markdown conversion directly from URLs."
+description = "langchain-pull-md is a Python package that extends LangChain with a loader to convert URLs into Markdown. It addresses the challenge of extracting content from JavaScript-rendered pages, like those built with React, Angular, or Vue.js, by utilizing the pull.md service. This approach optimizes resource usage and ensures efficient, reliable Markdown conversion directly from URLs."
 authors = ["E. Evstafev <chigwel@gmail.com>"]
 license = "Apache License 2.0"
 readme = "README.md"
 packages = [{include = "langchain_pull_md"}]
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "^3.10.15"
 requests = ">=2.25.1"
 
 [tool.poetry.group.dev.dependencies]
