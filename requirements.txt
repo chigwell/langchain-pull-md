@@ -1,0 +1,3 @@
+langchain
+langchain_community
+requests>=2.25.1
