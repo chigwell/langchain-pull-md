@@ -5,6 +5,8 @@
 
 # langchain-pull-md
 
+> **Deprecated:** This package is deprecated because the `pull.md` service was switched off on 25/12/2025.
+
 **`langchain-pull-md`** is a Python package that extends [LangChain](https://github.com/langchain/langchain) by providing a markdown loader from URLs using the `pull.md` service. This package enables the fetching of fully rendered Markdown content, which is especially useful for web pages that utilize JavaScript frameworks such as React, Angular, and Vue.js.
 
 ---
